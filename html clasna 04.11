@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <div class="container">
+        <div class="box"></div>
+    </div>
+    <div class="fixed-box">Я убиваю</div> -->
+
+
+    <header>NAzvanie saita</header>
+    <main>
+        <div class="left">
+            <h1>MAGAZIN</h1>
+        </div>
+        <div class="right">
+            <div class="adv-block">
+                <a href="aliexpress.com">
+                    Красиво жить не запретишь
+                </a>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
+
+
+/* .container {
+    position: relative;
+    border:  3px dotted black;
+    width: 50%;
+    height: 180vh;
+}
+
+
+.box {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background: red;
+    width: 30px;
+    height: 30px;
+}
+.fixed-box {
+    width: 100%;
+    position: fixed;
+    padding: 5px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: black;
+    bottom: 0;
+    left: 0;
+} */
+
+header {
+    height: 30vh;
+    background-color: pink;
+}
+.left, .right {
+    width: 50%;
+    height: 150vh;
+}
+main {
+    display: flex;
+}
+adv-block {
+    position: sticky;
+    top: 20px;
+}
